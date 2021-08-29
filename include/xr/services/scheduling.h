@@ -16,7 +16,7 @@ are much faster to create then a thread, but if a job takes 100's or 1000's of
 mS, then a thread may be better suited.
 
 \par Interaction
-There are tree ways to submit work to the scheduler.
+There are three ways to submit work to the scheduler.
 \li Via Static functions of Type "Runnable" with an "Arguments" parameter
 \li Via lambda function which captures no more than "Arguments" size of data from caller
 \li Via a functor object which defines a operator() function and whose size is no more 
